@@ -22,10 +22,10 @@ data/                           		Folder containing data files.
   Colorado-Roundtable-Basins.xlsx     		Simple Excel file containing core data.
   Colorado-Roundtable-Basins.csv      		The Excel file contents from the IBCCBasin worksheet converted to a csv file, useful for automated processing.
 data-orig/					Folder containing original data files downloaded from agency websites.
-  Colorado-IBCC-Basins.geojson				Exported spatial data file from the Colorado Water Conservation Board Data Viewer's IBCC Basin layer.
+  Colorado-IBCC-Basins.geojson			Exported spatial data file from the Colorado Water Conservation Board Data Viewer's IBCC Basin layer.
 doc/
   ?                             		Additional documentation for the dataset.
-TSTool/                         		TSTool software command files to process data into useful forms.
+analysis/                         		TSTool software command files to process data into useful forms.
   README.md                     		Explanation of TSTool command files used to process the core data into other products.
 ```
 
