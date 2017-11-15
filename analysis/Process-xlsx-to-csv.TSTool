@@ -1,5 +1,5 @@
 # Convert dataset from .xlsx format to .csv
 #
-ReadTableFromExcel(TableID="IBCCBasin",InputFile="..\..\..\Users\kms\southplattedataplatform\git-repos\owf-data-co-roundtable-basins\data\Colorado-Roundtable-Basins.xlsx",Worksheet="IBCCBasin",ExcelAddress="a1:d10",ExcelColumnNames=FirstRowInRange)
-WriteTableToDelimitedFile(TableID="IBCCBasin",OutputFile="..\..\..\Users\kms\southplattedataplatform\git-repos\owf-data-co-roundtable-basins\data\Colorado-Roundtable-Basins.csv",WriteHeaderComments=False)
+ReadTableFromExcel(TableID="IBCCBasin",InputFile="..\data\Colorado-Roundtable-Basins.xlsx",Worksheet="IBCCBasin",ExcelAddress="a1:e10",ExcelColumnNames=FirstRowInRange)
+WriteTableToDelimitedFile(TableID="IBCCBasin",OutputFile="..\data\Colorado-Roundtable-Basins.csv",WriteHeaderComments=False)
 #

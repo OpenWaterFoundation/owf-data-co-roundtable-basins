@@ -35,8 +35,18 @@ The core Excel workbook that serves as the master data contains the following da
 
 * **IBCCBasinName** -- name of the IBCC basin.  Most of the names are self-explanatory; however it should be understood that the Yampa Basin includes the Yampa, Green and White rivers, while the Southwest Basin includes the San Juan, Dolores and San Miguel rivers
 * **CWCB_URL** -- [Colorado Water Conservation Board (CWCB)'s](http://cwcb.state.co.us/water-management/basin-roundtables/Pages/main.aspx) website URL that contains information about the basin
-* **Basin_URL** -- the basin roundtable's website URL
+* **Roundtable_URL** -- the basin roundtable's website URL
+* **Roundtable_URL_Flag** -- data status of Roundtable URLs; see more detail below
 * **Comment** -- any other information about the basin
+
+Data columns with the word "Flag" added to the column name are an indication of data status as it relates to missing data.  The following conventions are used:
+* G = is a known/good value.  
+* g = is an estimated (but good) value.  The associated cell is also highlighted in yellow.
+* N = is not applicable and a blank cell is expected.
+* M = is known to be missing in original source and therefore a blank cell indicates that a value cannot be provided.
+* m = is estimated to be missing.  The associated cell is also highlighted in gray.
+* z = is unable to be confirmed.  A value is possible but cannot be confirmed one way or the other.  The associated cell is also highlighted in orange.
+* x = OWF has not made an attempt to populate the cell at this time.  The value is missing because OWF has not attempted to find the value.  The associated cell is also highlighted in black.
 
 Descriptions of data columns are also provided in the **Notes** worksheet within the workbook.  This worksheet also details how the original data were downloaded and where to find those files.
 
@@ -56,7 +66,7 @@ This file is the **IBCCBasin** worksheet saved in csv format.
 The data sources for this dataset are listed below.
 
 * The [Colorado Water Conservation Board (CWCB)'s](http://cwcb.state.co.us/water-management/basin-roundtables/Pages/main.aspx) website contains information about the basin roundtables, such as dates for roundtable basin meetings, meeting minutes and links to reports and documents.
-* [Colorado's Water Plan](https://www.colorado.gov/pacific/cowaterplan/basins) website also provides some information about each basin and provides links to basin roundtable websites, if applicable.
+* [Colorado's Water Plan](https://www.colorado.gov/pacific/cowaterplan/basins) website also provides some information about each basin and provides links to basin roundtable websites, if applicable.  The website also provides links to Basin Implementation Plans.
 
 ## How to Use the Data ##
 
