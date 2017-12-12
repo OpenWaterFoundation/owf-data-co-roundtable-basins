@@ -13,18 +13,17 @@ OWF has created and is maintaining this dataset to facilitate work on various da
 The repository contains the following:
 
 ```text
-analysis/                         		TSTool software command files to process data into useful forms.
-data-orig/					Folder containing original data files downloaded from agency websites.
-  Colorado-IBCC-Basins-WGS84.geojson			Exported spatial data file from the Colorado Water Conservation Board Data Viewer's IBCC Basin layer, converted to WGS 84.
-data/                           		Folder containing data files.
-  Colorado-Roundtable-Basins.xlsx     		Simple Excel file containing core data.
-  Colorado-Roundtable-Basins.csv      		The Excel file contents from the IBCCBasin worksheet converted to a csv file, useful for automated processing.
+analysis/                                   TSTool software command files to process data into useful forms.
+data-orig/                                  Folder containing original data files downloaded from agency websites.
+  Colorado-IBCC-Basins-WGS84.geojson        Exported spatial data file from the Colorado Water Conservation Board Data Viewer's IBCC Basin layer, converted to WGS 84.
+data/                                       Folder containing data files.
+  Colorado-Roundtable-Basins.xlsx           Simple Excel file containing core data.
+  Colorado-Roundtable-Basins.csv            The Excel file contents from the IBCCBasin worksheet converted to a csv file, useful for automated processing.
 doc/
-  ?                             		Additional documentation for the dataset.
-.gitattributes                  		Git configuration file indicate repository configuration, in particular handling
-												of line-ending and binary files.
-.gitignore                      		Git configuration file to ignore files that should not be committed to the repository.
-README.md                     		Explanation of repository contents, data files and sources and TSTool command files used to process the core data into other products.
+  ?                                         Additional documentation for the dataset.
+.gitattributes                              Git configuration file indicate repository configuration, in particular handling of line-ending and binary files.
+.gitignore                                  Git configuration file to ignore files that should not be committed to the repository.
+README.md                                   Explanation of repository contents, data files and sources and TSTool command files used to process the core data into other products.
 ```
 
 ### Colorado-Roundtable-Basins.xlsx Contents ###
@@ -40,7 +39,7 @@ The core Excel workbook that serves as the master data contains the following da
 Descriptions of data columns are also provided in the **Notes** worksheet within the workbook.  This worksheet also details how the original data were downloaded and where to find those files.
 
 #### Data Flags ####
-Data columns with the word "Flag" added to the column name are an indication of data status as it relates to missing data.  The following conventions are used:
+Data columns with the word "_Flag" added to the column name are an indication of data status as it relates to missing data.  The following conventions are used:
 * G = is a known/good value.  
 * g = is an estimated (but good) value.  The associated cell is also highlighted in yellow.
 * N = is not applicable and a blank cell is expected.
@@ -74,7 +73,7 @@ The data sources for this dataset are listed below.
 The Colorado Roundtable Basins dataset provides a list of IBCC basins.  In the future, there may be unique identifiers for each basin and this dataset will allow cross-referencing the identifiers
 so that other datasets can be joined.  For example, the [Colorado Municipalities dataset](https://github.com/OpenWaterFoundation/owf-data-co-municipalities) contains basin names and can be used to link additional data.
 
-The Excel or csv files can be used as tabular datasets as is, to create filtered lists or to link to other datasets.  Data-processing software such as TSTool can be used to link this dataset to other datasets.  Datasets can be used within GIS software to create maps.
+The Excel and csv files can be used as tabular datasets as is, to create filtered lists or to link to other datasets.  Data-processing software such as TSTool can be used to link this dataset to other datasets.  Datasets can be used within GIS software to create maps.
 
 The format and contents of the dataset will change over time.  It is recommended to save a copy of the dataset for local processing or to fix the version in time.
 
