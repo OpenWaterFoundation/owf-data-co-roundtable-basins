@@ -16,6 +16,7 @@ The repository contains the following:
 analysis/                                   TSTool software command files to process data into useful forms.
 data-orig/                                  Folder containing original data files downloaded from agency websites.
   Colorado-IBCC-Basins-WGS84.geojson        Exported spatial data file from the Colorado Water Conservation Board Data Viewer's IBCC Basin layer, converted to WGS 84.
+  README.md                                 Explanation of folder contents, description of data files, and the methodology used to obtain the data and mapping to the joined dataset.
 data/                                       Folder containing data files.
   Colorado-Roundtable-Basins.xlsx           Simple Excel file containing core data.
   Colorado-Roundtable-Basins.csv            The Excel file contents from the IBCCBasin worksheet converted to a csv file, useful for automated processing.
@@ -66,7 +67,7 @@ The data sources for this dataset are listed below.
 
 * The [Colorado Water Conservation Board (CWCB)'s](http://cwcb.state.co.us/water-management/basin-roundtables/Pages/main.aspx) website contains information about the basin roundtables, such as dates for roundtable basin meetings, meeting minutes and links to reports and documents.
 * [Colorado's Water Plan](https://www.colorado.gov/pacific/cowaterplan/basins) website also provides some information about each basin and provides links to basin roundtable websites, if applicable.  The website also provides links to Basin Implementation Plans.
-* IBCC basin boundaries were found by accessing the Colorado Water Conservation Board's Data Viewer (https://www.coloradodnr.info/h5v/Index.html?viewer=cwcbviewer).  The "IBCC Basin" layer was downloaded and opened in QGIS, converted to WGS 84 (EPSG:4326) and saved in GeoJSON format.
+* IBCC basin boundaries were found by accessing the Colorado Water Conservation Board's [Data Viewer](https://www.coloradodnr.info/h5v/Index.html?viewer=cwcbviewer).  The "IBCC Basin" layer was downloaded and opened in QGIS, converted to WGS 84 (EPSG:4326) and saved in GeoJSON format.
 
 ## How to Use the Data ##
 
