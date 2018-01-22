@@ -8,6 +8,18 @@ This is a foundational dataset that in the future will provide unique identifier
 The identifiers will be used to link other datasets, such as water providers and municipalities within basins.
 OWF has created and is maintaining this dataset to facilitate work on various data analysis and visualization projects in Colorado.
 
+The following sections provide a summary of the project repository:
+
+* [Repository Contents](#repository-contents)
+* [Attribution](#attribution)
+* [How to Use the Data](#how-to-use-the-data)
+* [Disclaimer](#disclaimer)
+* [License](#license)
+* [Contributing](#contributing)
+* [Maintainers](#maintainers)
+* [Contributors](#contributors)
+
+
 ## Repository Contents ##
 
 The repository contains the following:
